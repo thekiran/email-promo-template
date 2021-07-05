@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Your Message Subject or Title</title>
+	<style type="text/css">
+		body{width:100%; margin:0; padding:0;}
+
+		tr{
+			/* display: table; */
+			
+			/* box-sizing:border-box; */
+		}
+		/* #backgroundTable {margin:0; padding:0; width:100%;line-height: 100%;} */
+		.wrapper{width: 100%;table-layout: fixed;background: rgba(27, 26, 26, 0.404);padding-bottom: 60px;overflow-x: hidden;}
+		/* .main-table{overflow: hidden;} */
+		.head{
+		}
+		.hero td{
+			background: rgb(0, 0, 0);
+		}
+		.hero-img{
+			font-size: 0;display: block;margin: 0 auto;max-width: 99%;max-height:42vh;object-fit: contain;padding:0px;background-color: rgb(0, 0, 0);
+		}
+
+		.pomo-details{
+			display: flex;margin: 0px auto;width: 100%;
+			
+			font-family: fantasy;
+		}
+		.pomo-details td{display: inline-block;margin: 0 auto;background-color: rgb(0,0,0);width: 400px;text-align: center;font-size: 20px;color: #fff;max-width: 99vw}
+		
+		.pomo-details p{font-size: clamp(15px,3.5vw,23px);color: #fff;}
+		.pomo-details a{
+			display: inline-block;
+			position: relative;
+			font-weight: 900;
+			font-size: clamp(20px,6vw,40px);color: #fff;
+			text-decoration: none;
+			
+		}
+		.pomo-details a:hover{}
+
+		.main{
+			/* background: aqua; */
+			margin: -1px 0 0 -1px;
+			/* width: 400px; */
+			border-spacing: 0;
+		}
+		.main-title{
+			width: 100%;
+			display: inline-block;
+			/* max-width: 600px; */
+			margin: 0 auto;
+		}
+		.main-title td{
+			display: inline-block;
+			margin: 0;
+			width: 100%;
+			padding: 0;
+		}
+		.main-title h2{
+			display: inline-block;
+			margin: 0;
+			width: 100%;
+			text-align: center;
+			font-size: clamp(20px,6vw,40px);color: #fff;
+			background: rgb(255, 255, 255);
+			color: #000;
+			/* background: red; */
+		}
+		.two-columns{
+			text-align: center;
+			font-size: 0;
+		}
+		.two-columns .column{
+			width: 100%;
+			max-width: 300px;
+			display: inline-block;
+			vertical-align: top;
+		}
+		a{
+			display: inline-block;
+			text-decoration: none;
+		}
+	</style> 
+</head>
+<body>
+		<!-- <table cellpadding="0" cellspacing="0" border="0" id="backgroundTable">
+	<tr>
+		<td style="display: inline-block;margin: 0 auto;background-color: rgb(117, 117, 117);width: 100%;">
+		<img class="image_fix" src="./hero-img.png" alt="Your alt text" title="Your title text" width="200px" height="200px" style="display: block;margin: 0 auto;max-width: 99vw;max-height:42vh;object-fit: contain;padding:10px 100px;background-color: red;"  />
+		<table cellpadding="0" cellspacing="0" border="0" align="center">
+				<tr width="400px" style="display: inline-block;height: 200px;width: 100%;max-width: 600px;background-color: red;">
+					<td width="200" valign="top">
+						<h1 style="background-color: aqua;">head</h1>
+					</td>
+				</tr>
+			</table> -->
+		 
+		<!-- <a href="http://htmlemailboilerplate.com" target ="_blank" title="Styling Links" style="color: orange; text-decoration: none;">Coloring Links appropriately</a>
+		<img class="image_fix" src="full path to image" alt="Your alt text" title="Your title text" width="x" height="x" />
+		<span class="mobile_link">123-456-7890</span>
+		</td>
+	</tr> -->
+
+	</table>
+
+	<center class="wrapper">
+		<table class="main">
+			<tbody>
+			<!-- hero section -->
+			<tr>
+				<td>
+					<table class="head" width="100%" style="background-color: #000;">
+						<!-- head section -->
+						<tr class="hero">
+							<td style="display: inline-block;margin: 0 auto;width: 99%;">
+								<img class="hero-img" src="./hero-img.png" alt="Your alt text" title="Your title text" width="200px" height="200px" style=""  />
+							</td>
+						</tr>
+						
+						<!-- promo section -->
+						<tr class="pomo-details">
+							<td>
+								<p>50% off on everything use promocode</p>
+								<a 
+								style="
+								transition: all 250ms ease-in-out;
+								letter-spacing: 0em;
+								padding: 10px;
+								border: 2px dashed rgb(95, 82, 82) ;
+								background: rgb(236, 236, 236);
+								color: #000;
+							"
+							onmouseout="
+							this.style.letterSpacing='0em';
+							this.style.textDecoration='none';
+							this.style.padding='10px';	
+							this.style.border='2px dashed rgb(95, 82, 82)';	
+							this.style.backgroundColor='rgb(236, 236, 236)';	
+							this.style.transform='scale(100%)';	
+							this.style.color='#000';	
+							"
+							onmouseover="
+							this.style.letterSpacing='0.25em';
+							this.style.textDecoration='none';
+							this.style.transform='scale(100%,100%)';					
+							this.style.padding='10px';	
+							this.style.border='2px dashed #fff';
+							this.style.backgroundColor='#000';	
+							this.style.color='#fff';		
+							"
+							href="#" class="promo-btn">PROMO50</a>
+							<p>Copy and paste promo on checkout</p>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+
+				<!-- deal section -->
+				<tr class="deal-section">
+					<td>
+						<!-- deal title -->
+						<tr class="main-title">
+							<td>
+								<h2 style="font-family: cursive;padding: 20px 0;">Best summer deals</h2>	
+							</td>
+						</tr>
+						<!-- deal product section -->
+						<tr style="background-color: #fff;">
+							<td>
+									<table style="width: 100%;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" class="product-t">				
+										<tr>
+											<td class="two-columns">
+												<table class="column">
+													<tr>
+														<td>
+															<img width="300" height="350" src="pants.jpg" alt="">
+															<a href="#" style="
+															font-size: clamp(20px,6vw,40px);color: #fff;
+															width: 98%;
+															background-color: rgb(0,0,0);
+															transition: all 100ms ease-in-out;"
+															onmouseover="
+															this.style.color = '#000'
+															this.style.backgroundColor = 'rgba(12, 12, 12, 0.13)'
+															"
+															onmouseout="
+															this.style.color = '#fff'
+															this.style.backgroundColor = '#000'
+															">Buy now</a>
+														</td>
+													</tr>
+												</table>
+												<table class="column">
+													<tr>
+														<td>
+															<img width="300" height="350" src="shoe.jpg" alt="">
+															<a href="#" style="
+															font-size: clamp(20px,6vw,40px);color: #fff;
+															width: 98%;
+															background-color: black;
+															transition: all 100ms ease-in-out;"
+															"
+															onmouseover="
+															this.style.color = '#000'
+															this.style.backgroundColor = 'rgba(12, 12, 12, 0.13)'
+															"
+															onmouseout="
+															this.style.color = '#fff'
+															this.style.backgroundColor = '#000'
+															"
+															>Buy now</a>
+														</td>
+													</tr>
+												</table>
+											</td> 
+										</tr>
+									</table>
+
+									<p class="avial" style="
+									font-family: Verdana, Geneva, Tahoma, sans-serif;
+									font-weight: 600;		
+									font-size: clamp(20px,3.5vw,30px);
+									background: rgb(255, 255, 255);
+									color: #000;
+									text-align: center;
+									">
+										Exciting offers only for you 
+									</p>
+								</td>
+						</tr>
+					</td>
+				</tr>
+			
+			</tbody>
+		</table>
+	</center>
+	</body>
+</html>
+
